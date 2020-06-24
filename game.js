@@ -40,13 +40,13 @@
   
     function showResults(){
   
-      // gather answer containers from our quiz
+      // gather answer containers from quiz
       const answerContainers = quizContainer.querySelectorAll('.answers');
   
       // tack answers
       let numCorrect = 0;
   
-      // for each question...
+      // for each question
       myQuestions.forEach( (currentQuestion, questionNumber) => {
   
         // find selected answer
